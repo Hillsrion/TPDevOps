@@ -16,14 +16,15 @@
     "prettier": "prettier --write app/*.js app/__{tests,mocks}__/*.js e2e_tests/*.js"
   },
   "dependencies": {
+    "coveralls": "^3.0.2",
     "ejs": "~2.5.7",
     "express": "~4.16.2",
     "got": "^8.0.1",
+    "jest": "^23.6.0",
     "serve-favicon": "^2.4.5"
   },
   "devDependencies": {
     "eslint": "^4.12.1",
-    "jest": "^21.2.1",
     "nodemon": "^1.12.5",
     "prettier": "^1.9.1",
     "supertest": "~3.0.0"
